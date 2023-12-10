@@ -1,0 +1,153 @@
+/* Write your CSS code here. */
+
+@media (max-width: 768px) {
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  }
+  .emoji-main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: ;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  .emoji-heading {
+    font-size: 20px;
+    text-align: center;
+    color: #0f172a;
+  }
+  .emoji-img-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+  }
+  .btn {
+    background-color: transparent;
+    border: none;
+  }
+  .btn-card {
+    list-style-type: none;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .emoji-img {
+    height: 40px;
+    width: 40px;
+  }
+  .emoji-name {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #0f172a;
+  }
+
+  .thankyou-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: ;
+    width: 300px;
+    padding: 20px;
+  }
+  .thank-img {
+    height: 45px;
+    width: 45px;
+  }
+  .thank-heading {
+    font-size: 20px;
+    color: #0f172a;
+  }
+  .thank-para {
+    font: 15px;
+    text-align: center;
+    color: #1e293b;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  }
+  .emoji-main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 400px;
+    width: 700px;
+    background-color: #ffffff;
+  }
+  .emoji-heading {
+    font-size: 40px;
+    text-align: center;
+    color: #0f172a;
+  }
+  .emoji-img-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 530px;
+  }
+  .btn {
+    background-color: transparent;
+    border: none;
+  }
+  .btn-card {
+    list-style-type: none;
+  }
+  .emoji-img {
+    height: 80px;
+    width: 80px;
+  }
+  .emoji-name {
+    margin-left: 30px;
+    color: #0f172a;
+  }
+
+  .thankyou-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 350px;
+    width: 700px;
+  }
+  .thank-img {
+    height: 90px;
+    width: 90px;
+  }
+  .thank-heading {
+    font-size: 30px;
+    color: #0f172a;
+  }
+  .thank-para {
+    font: 20px;
+    text-align: center;
+    color: #1e293b;
+  }
+}
